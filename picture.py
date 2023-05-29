@@ -4,7 +4,7 @@ import math
 
 model = YOLO("best.pt")
 
-img = cv2.imread("sample_pictures/rac3.jpg")
+img = cv2.imread("sample_pictures/rac.jpg")
 
 results = model(img, stream=True)
 
